@@ -3,12 +3,12 @@ start = input ("Enter first number")
 end = input ("Enter second number")**/
 
 fun main(){
-    println("Enter num1: ")
-    val n1 = readln().toInt()
-    println("Enter num2: ")
-    val n2 = readln().toInt()
+    println("Enter first number: ")
+    val start = readln().toInt()
+    println("Enter second number: ")
+    val end = readln().toInt()
 
-    for(i in n1..n2){
+    for(i in start..end){
         println("Multiplication Table of $i")
         for(j in 1..10){
             println("$i x $j = " +i*j)
