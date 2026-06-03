@@ -1,0 +1,18 @@
+Date: 2026-06-03
+
+To,
+The Prime Minister of India
+
+Subject: List of Lucky Prisoners Released Today
+
+Respected Sir,
+
+The following prisoners have been identified as lucky prisoners and are released today:
+
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+Release Date: 2026-06-03
+
+Yours faithfully,
+Jailer
+Andaman Central Prison
