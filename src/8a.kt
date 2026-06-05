@@ -14,15 +14,15 @@ fun main() {
         countries.add(part1)
         capitals.add(part2)
     }
-    countries.shuffle()
-    for (i in 0 until 9) {
-        println("What is the capital of " + "${countries[i]}")
+
+    for (i in 0 .. 9) {
+        println("What is the capital of " + "${countries.random()}")
         val answer1 = readln()
         answer.add(answer1)
     }
     println()
 
-    for (i in 0 until 9) {
+    for (i in 0..9) {
         if (answer[i].trim().lowercase() == capitals[i].trim().lowercase()) {
             score.add(10.00)
         } else {
@@ -35,7 +35,7 @@ fun main() {
     val total = score.sum()
     println("Total marks: "+ total)
     println("Wrongly Answered Questions:")
-    for (i in 0 until 9) {
+    for (i in 0.. 9) {
         if (score[i]== 0.00) {
             println("What is the capital of "  +countries[i]+ "?")
             println("Correct answer: "+ capitals[i])
